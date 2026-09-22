@@ -19,8 +19,10 @@
 
 1. GitHubに公開リポジトリを作成します。
 2. このフォルダの内容をリポジトリ直下へ置き、`main`ブランチへ反映します。
-3. 同梱のGitHub ActionsがGitHub Pagesへ公開します。
-4. リポジトリの「Settings → Pages」で、必要に応じてSourceを「GitHub Actions」にします。
+3. リポジトリの「Settings → Pages」でSourceを「Deploy from a branch」にします。
+4. Branchを`main`、Folderを`/ (root)`にして保存します。
+
+このリポジトリでは上記設定を完了しており、`main`ブランチへ反映すると自動的に再公開されます。同梱のGitHub Actionsは別のリポジトリでActions方式を選ぶ場合の予備設定です。
 
 公開URLは通常 `https://ユーザー名.github.io/リポジトリ名/` です。初回の反映には数分かかる場合があります。
 
